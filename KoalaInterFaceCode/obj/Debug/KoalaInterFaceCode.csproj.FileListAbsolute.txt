@@ -1,0 +1,10 @@
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\bin\Debug\KoalaInterFaceCode.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\bin\Debug\KoalaInterFaceCode.pdb
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\bin\Debug\Newtonsoft.Json.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\bin\Debug\Newtonsoft.Json.pdb
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\bin\Debug\Newtonsoft.Json.xml
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\obj\Debug\KoalaInterFaceCode.csprojAssemblyReference.cache
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\obj\Debug\KoalaInterFaceCode.csproj.CoreCompileInputs.cache
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\obj\Debug\KoalaInterFaceCode.csproj.CopyComplete
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\obj\Debug\KoalaInterFaceCode.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceCode\obj\Debug\KoalaInterFaceCode.pdb

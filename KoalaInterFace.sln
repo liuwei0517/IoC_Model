@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaInterFace", "KoalaInterFace\KoalaInterFace.csproj", "{478E8129-73A6-45EB-8BFA-9D00D981FC52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaInterFaceModels", "KoalaInterFaceModels\KoalaInterFaceModels.csproj", "{4D60D45F-1B04-45FE-AA24-89A3BA6F6DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaInterFaceDAL", "KoalaInterFaceDAL\KoalaInterFaceDAL.csproj", "{4B999752-AAC5-4BC2-9391-A3501D53A3D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaInterFaceBLL", "KoalaInterFaceBLL\KoalaInterFaceBLL.csproj", "{962EA93A-6003-47CB-9A63-B88DECBDCA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaInterFaceService", "KoalaInterFaceService\KoalaInterFaceService.csproj", "{F56F7BC2-0BF8-4B53-AA36-4AF2DB5BC2A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaInterFaceCode", "KoalaInterFaceCode\KoalaInterFaceCode.csproj", "{4E038A7E-D8A2-40CC-8AE0-FB9BDA4210E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaInterFaceTests1", "KoalaInterFaceTests1\KoalaInterFaceTests1.csproj", "{2D1A548B-14CE-4515-A856-05259FF2274D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478E8129-73A6-45EB-8BFA-9D00D981FC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478E8129-73A6-45EB-8BFA-9D00D981FC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478E8129-73A6-45EB-8BFA-9D00D981FC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478E8129-73A6-45EB-8BFA-9D00D981FC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D60D45F-1B04-45FE-AA24-89A3BA6F6DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D60D45F-1B04-45FE-AA24-89A3BA6F6DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D60D45F-1B04-45FE-AA24-89A3BA6F6DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D60D45F-1B04-45FE-AA24-89A3BA6F6DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B999752-AAC5-4BC2-9391-A3501D53A3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B999752-AAC5-4BC2-9391-A3501D53A3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B999752-AAC5-4BC2-9391-A3501D53A3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B999752-AAC5-4BC2-9391-A3501D53A3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962EA93A-6003-47CB-9A63-B88DECBDCA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962EA93A-6003-47CB-9A63-B88DECBDCA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962EA93A-6003-47CB-9A63-B88DECBDCA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962EA93A-6003-47CB-9A63-B88DECBDCA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56F7BC2-0BF8-4B53-AA36-4AF2DB5BC2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56F7BC2-0BF8-4B53-AA36-4AF2DB5BC2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56F7BC2-0BF8-4B53-AA36-4AF2DB5BC2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56F7BC2-0BF8-4B53-AA36-4AF2DB5BC2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E038A7E-D8A2-40CC-8AE0-FB9BDA4210E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E038A7E-D8A2-40CC-8AE0-FB9BDA4210E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E038A7E-D8A2-40CC-8AE0-FB9BDA4210E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E038A7E-D8A2-40CC-8AE0-FB9BDA4210E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1A548B-14CE-4515-A856-05259FF2274D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1A548B-14CE-4515-A856-05259FF2274D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1A548B-14CE-4515-A856-05259FF2274D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1A548B-14CE-4515-A856-05259FF2274D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F548523B-C1B6-46D4-9D13-0B60CFA9DFE6}
+	EndGlobalSection
+EndGlobal

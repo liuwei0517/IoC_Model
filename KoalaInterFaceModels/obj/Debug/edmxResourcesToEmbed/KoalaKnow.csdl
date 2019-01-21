@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoalaKnowDevModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BG_File_TemplateInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MTS_T_ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MTS_T_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MTS_T_Type" Type="Int32" />
+    <Property Name="T_Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <Property Name="bUsed" Type="Int32" />
+    <Property Name="FileSuffix" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SortNum" Type="Int32" />
+  </EntityType>
+  <EntityType Name="BG_RequestMTS_FileInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Guid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FilePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="FileType" Type="Int32" />
+    <Property Name="TableName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ColumnName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TableID" Type="Int32" />
+    <Property Name="FilePic" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="bUsed" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <Property Name="ReturnTime" Type="DateTime" Precision="3" />
+    <Property Name="VideoThumbnail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AudioTime" Type="Int32" />
+  </EntityType>
+  <EntityType Name="BG_RequestMTS_FileInfo_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RID" Type="Int32" />
+    <Property Name="TID" Type="Int32" />
+    <Property Name="FilePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="JobID" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="bUsed" Type="Int32" />
+    <Property Name="AddTime" Type="DateTime" Precision="3" />
+    <Property Name="Guid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="BG_SubPic_Error_Log">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="guid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="bUsed" Type="Int32" />
+  </EntityType>
+  <EntityType Name="KL_PictureBook_Info">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="guid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="coverImage" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="thumbnail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="video" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="beUsed" Type="Int32" />
+    <Property Name="MTSstatus" Type="Int32" />
+    <Property Name="sortId" Type="Int32" />
+    <Property Name="uploadTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="userlist">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="guid" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="appid" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="openid" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="unionid" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="clientid" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="nickname" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="fatherName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="montherName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="sex" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="province" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="city" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="country" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="headimgurl" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="baby_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="baby_english_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="baby_kindergarten" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="baby_address" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="baby_headimgurl" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="baby_age" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="baby_brithday" Type="DateTime" Precision="0" />
+    <Property Name="student_id" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="agent_status" Type="Int32" />
+    <Property Name="createtime" Type="DateTime" Precision="3" />
+    <Property Name="updatetime" Type="DateTime" Precision="3" />
+    <Property Name="flag" Type="Int32" />
+    <Property Name="utype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="specialID" Type="Int32" />
+    <Property Name="vc_u_email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_from" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nvc_u_email_type" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="vc_u_email_pwd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_facebook_id" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_facebook_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_facebook_mail" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_facebook_head" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="nvc_u_surname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_vChar_id" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_vChar_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_vChar_head" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="vc_u_vChar_no" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="i_u_vChar_status" Type="Int32" />
+    <Property Name="vc_u_Pay_Status" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="i_u_Account_status" Type="Int32" />
+    <Property Name="nvc_baby_summary" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="KoalaKnowDevEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BG_File_TemplateInfo" EntityType="Self.BG_File_TemplateInfo" />
+    <EntitySet Name="BG_RequestMTS_FileInfo" EntityType="Self.BG_RequestMTS_FileInfo" />
+    <EntitySet Name="BG_RequestMTS_FileInfo_Detaile" EntityType="Self.BG_RequestMTS_FileInfo_Detaile" />
+    <EntitySet Name="BG_SubPic_Error_Log" EntityType="Self.BG_SubPic_Error_Log" />
+    <EntitySet Name="KL_PictureBook_Info" EntityType="Self.KL_PictureBook_Info" />
+    <EntitySet Name="userlist" EntityType="Self.userlist" />
+  </EntityContainer>
+</Schema>

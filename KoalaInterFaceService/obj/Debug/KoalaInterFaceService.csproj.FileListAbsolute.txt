@@ -1,0 +1,13 @@
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\KoalaInterFaceService.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\KoalaInterFaceService.pdb
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\EntityFramework.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\KoalaInterFaceModels.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\KoalaInterFaceModels.pdb
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\KoalaInterFaceModels.dll.config
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\EntityFramework.xml
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\obj\Debug\KoalaInterFaceService.csprojAssemblyReference.cache
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\obj\Debug\KoalaInterFaceService.csproj.CoreCompileInputs.cache
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\obj\Debug\KoalaInterFaceService.csproj.CopyComplete
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\obj\Debug\KoalaInterFaceService.dll
+E:\Users\faith\source\repos\KoalaInterFace\KoalaInterFaceService\obj\Debug\KoalaInterFaceService.pdb

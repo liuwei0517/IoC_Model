@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoalaKnowDevModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BG_File_TemplateInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MTS_T_ID" Type="varchar" MaxLength="50" />
+    <Property Name="MTS_T_Name" Type="varchar" MaxLength="100" />
+    <Property Name="MTS_T_Type" Type="int" />
+    <Property Name="T_Description" Type="text" />
+    <Property Name="AddTime" Type="datetime" />
+    <Property Name="bUsed" Type="int" />
+    <Property Name="FileSuffix" Type="varchar" MaxLength="50" />
+    <Property Name="SortNum" Type="int" />
+  </EntityType>
+  <EntityType Name="BG_RequestMTS_FileInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Guid" Type="varchar" MaxLength="50" />
+    <Property Name="FilePath" Type="varchar" MaxLength="1000" />
+    <Property Name="FileType" Type="int" />
+    <Property Name="TableName" Type="varchar" MaxLength="50" />
+    <Property Name="ColumnName" Type="varchar" MaxLength="50" />
+    <Property Name="TableID" Type="int" />
+    <Property Name="FilePic" Type="varchar" MaxLength="1000" />
+    <Property Name="bUsed" Type="int" />
+    <Property Name="Description" Type="text" />
+    <Property Name="AddTime" Type="datetime" />
+    <Property Name="ReturnTime" Type="datetime" />
+    <Property Name="VideoThumbnail" Type="varchar" MaxLength="50" />
+    <Property Name="AudioTime" Type="int" />
+  </EntityType>
+  <EntityType Name="BG_RequestMTS_FileInfo_Detaile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RID" Type="int" />
+    <Property Name="TID" Type="int" />
+    <Property Name="FilePath" Type="varchar" MaxLength="1000" />
+    <Property Name="JobID" Type="varchar" MaxLength="100" />
+    <Property Name="Description" Type="text" />
+    <Property Name="bUsed" Type="int" />
+    <Property Name="AddTime" Type="datetime" />
+    <Property Name="Guid" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="BG_SubPic_Error_Log">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="guid" Type="varchar" MaxLength="50" />
+    <Property Name="bUsed" Type="int" />
+  </EntityType>
+  <EntityType Name="KL_PictureBook_Info">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="guid" Type="varchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="coverImage" Type="varchar" MaxLength="50" />
+    <Property Name="thumbnail" Type="varchar" MaxLength="50" />
+    <Property Name="video" Type="varchar" MaxLength="50" />
+    <Property Name="beUsed" Type="int" />
+    <Property Name="MTSstatus" Type="int" />
+    <Property Name="sortId" Type="int" />
+    <Property Name="uploadTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="userlist">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="guid" Type="nvarchar" MaxLength="200" />
+    <Property Name="appid" Type="nvarchar" MaxLength="200" />
+    <Property Name="type" Type="nvarchar" MaxLength="50" />
+    <Property Name="openid" Type="nvarchar" MaxLength="200" />
+    <Property Name="unionid" Type="nvarchar" MaxLength="200" />
+    <Property Name="clientid" Type="nvarchar" MaxLength="200" />
+    <Property Name="nickname" Type="nvarchar" MaxLength="500" />
+    <Property Name="fatherName" Type="nvarchar" MaxLength="50" />
+    <Property Name="montherName" Type="nvarchar" MaxLength="50" />
+    <Property Name="sex" Type="nvarchar" MaxLength="2" />
+    <Property Name="province" Type="nvarchar" MaxLength="50" />
+    <Property Name="city" Type="nvarchar" MaxLength="500" />
+    <Property Name="country" Type="nvarchar" MaxLength="50" />
+    <Property Name="headimgurl" Type="nvarchar" MaxLength="500" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="200" />
+    <Property Name="password" Type="varchar" MaxLength="50" />
+    <Property Name="baby_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="baby_english_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="baby_kindergarten" Type="nvarchar" MaxLength="50" />
+    <Property Name="baby_address" Type="nvarchar" MaxLength="100" />
+    <Property Name="baby_headimgurl" Type="nvarchar" MaxLength="100" />
+    <Property Name="baby_age" Type="nvarchar" MaxLength="100" />
+    <Property Name="baby_brithday" Type="date" />
+    <Property Name="student_id" Type="nvarchar" MaxLength="50" />
+    <Property Name="agent_status" Type="int" />
+    <Property Name="createtime" Type="datetime" />
+    <Property Name="updatetime" Type="datetime" />
+    <Property Name="flag" Type="int" />
+    <Property Name="utype" Type="varchar" MaxLength="50" />
+    <Property Name="specialID" Type="int" />
+    <Property Name="vc_u_email" Type="varchar" MaxLength="100" />
+    <Property Name="vc_u_from" Type="varchar" MaxLength="50" />
+    <Property Name="nvc_u_email_type" Type="nvarchar" MaxLength="20" />
+    <Property Name="vc_u_email_pwd" Type="varchar" MaxLength="50" />
+    <Property Name="vc_u_facebook_id" Type="varchar" MaxLength="100" />
+    <Property Name="vc_u_facebook_name" Type="varchar" MaxLength="100" />
+    <Property Name="vc_u_facebook_mail" Type="varchar" MaxLength="100" />
+    <Property Name="vc_u_facebook_head" Type="varchar" MaxLength="200" />
+    <Property Name="nvc_u_surname" Type="varchar" MaxLength="100" />
+    <Property Name="vc_u_vChar_id" Type="varchar" MaxLength="100" />
+    <Property Name="vc_u_vChar_name" Type="varchar" MaxLength="100" />
+    <Property Name="vc_u_vChar_head" Type="varchar" MaxLength="200" />
+    <Property Name="vc_u_vChar_no" Type="varchar" MaxLength="200" />
+    <Property Name="i_u_vChar_status" Type="int" />
+    <Property Name="vc_u_Pay_Status" Type="varchar" MaxLength="100" />
+    <Property Name="i_u_Account_status" Type="int" />
+    <Property Name="nvc_baby_summary" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityContainer Name="KoalaKnowDevModelStoreContainer">
+    <EntitySet Name="BG_File_TemplateInfo" EntityType="Self.BG_File_TemplateInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BG_RequestMTS_FileInfo" EntityType="Self.BG_RequestMTS_FileInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BG_RequestMTS_FileInfo_Detaile" EntityType="Self.BG_RequestMTS_FileInfo_Detaile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BG_SubPic_Error_Log" EntityType="Self.BG_SubPic_Error_Log" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KL_PictureBook_Info" EntityType="Self.KL_PictureBook_Info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="userlist" EntityType="Self.userlist" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

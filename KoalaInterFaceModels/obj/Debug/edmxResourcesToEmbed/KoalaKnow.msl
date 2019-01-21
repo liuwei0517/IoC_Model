@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KoalaKnowDevModelStoreContainer" CdmEntityContainer="KoalaKnowDevEntities">
+    <EntitySetMapping Name="BG_File_TemplateInfo">
+      <EntityTypeMapping TypeName="KoalaKnowDevModel.BG_File_TemplateInfo">
+        <MappingFragment StoreEntitySet="BG_File_TemplateInfo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MTS_T_ID" ColumnName="MTS_T_ID" />
+          <ScalarProperty Name="MTS_T_Name" ColumnName="MTS_T_Name" />
+          <ScalarProperty Name="MTS_T_Type" ColumnName="MTS_T_Type" />
+          <ScalarProperty Name="T_Description" ColumnName="T_Description" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="bUsed" ColumnName="bUsed" />
+          <ScalarProperty Name="FileSuffix" ColumnName="FileSuffix" />
+          <ScalarProperty Name="SortNum" ColumnName="SortNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BG_RequestMTS_FileInfo">
+      <EntityTypeMapping TypeName="KoalaKnowDevModel.BG_RequestMTS_FileInfo">
+        <MappingFragment StoreEntitySet="BG_RequestMTS_FileInfo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Guid" ColumnName="Guid" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="ColumnName" ColumnName="ColumnName" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="FilePic" ColumnName="FilePic" />
+          <ScalarProperty Name="bUsed" ColumnName="bUsed" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="ReturnTime" ColumnName="ReturnTime" />
+          <ScalarProperty Name="VideoThumbnail" ColumnName="VideoThumbnail" />
+          <ScalarProperty Name="AudioTime" ColumnName="AudioTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BG_RequestMTS_FileInfo_Detaile">
+      <EntityTypeMapping TypeName="KoalaKnowDevModel.BG_RequestMTS_FileInfo_Detaile">
+        <MappingFragment StoreEntitySet="BG_RequestMTS_FileInfo_Detaile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RID" ColumnName="RID" />
+          <ScalarProperty Name="TID" ColumnName="TID" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="bUsed" ColumnName="bUsed" />
+          <ScalarProperty Name="AddTime" ColumnName="AddTime" />
+          <ScalarProperty Name="Guid" ColumnName="Guid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BG_SubPic_Error_Log">
+      <EntityTypeMapping TypeName="KoalaKnowDevModel.BG_SubPic_Error_Log">
+        <MappingFragment StoreEntitySet="BG_SubPic_Error_Log">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="guid" ColumnName="guid" />
+          <ScalarProperty Name="bUsed" ColumnName="bUsed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KL_PictureBook_Info">
+      <EntityTypeMapping TypeName="KoalaKnowDevModel.KL_PictureBook_Info">
+        <MappingFragment StoreEntitySet="KL_PictureBook_Info">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="guid" ColumnName="guid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="coverImage" ColumnName="coverImage" />
+          <ScalarProperty Name="thumbnail" ColumnName="thumbnail" />
+          <ScalarProperty Name="video" ColumnName="video" />
+          <ScalarProperty Name="beUsed" ColumnName="beUsed" />
+          <ScalarProperty Name="MTSstatus" ColumnName="MTSstatus" />
+          <ScalarProperty Name="sortId" ColumnName="sortId" />
+          <ScalarProperty Name="uploadTime" ColumnName="uploadTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userlist">
+      <EntityTypeMapping TypeName="KoalaKnowDevModel.userlist">
+        <MappingFragment StoreEntitySet="userlist">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="guid" ColumnName="guid" />
+          <ScalarProperty Name="appid" ColumnName="appid" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="openid" ColumnName="openid" />
+          <ScalarProperty Name="unionid" ColumnName="unionid" />
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="nickname" ColumnName="nickname" />
+          <ScalarProperty Name="fatherName" ColumnName="fatherName" />
+          <ScalarProperty Name="montherName" ColumnName="montherName" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="province" ColumnName="province" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="headimgurl" ColumnName="headimgurl" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="baby_name" ColumnName="baby_name" />
+          <ScalarProperty Name="baby_english_name" ColumnName="baby_english_name" />
+          <ScalarProperty Name="baby_kindergarten" ColumnName="baby_kindergarten" />
+          <ScalarProperty Name="baby_address" ColumnName="baby_address" />
+          <ScalarProperty Name="baby_headimgurl" ColumnName="baby_headimgurl" />
+          <ScalarProperty Name="baby_age" ColumnName="baby_age" />
+          <ScalarProperty Name="baby_brithday" ColumnName="baby_brithday" />
+          <ScalarProperty Name="student_id" ColumnName="student_id" />
+          <ScalarProperty Name="agent_status" ColumnName="agent_status" />
+          <ScalarProperty Name="createtime" ColumnName="createtime" />
+          <ScalarProperty Name="updatetime" ColumnName="updatetime" />
+          <ScalarProperty Name="flag" ColumnName="flag" />
+          <ScalarProperty Name="utype" ColumnName="utype" />
+          <ScalarProperty Name="specialID" ColumnName="specialID" />
+          <ScalarProperty Name="vc_u_email" ColumnName="vc_u_email" />
+          <ScalarProperty Name="vc_u_from" ColumnName="vc_u_from" />
+          <ScalarProperty Name="nvc_u_email_type" ColumnName="nvc_u_email_type" />
+          <ScalarProperty Name="vc_u_email_pwd" ColumnName="vc_u_email_pwd" />
+          <ScalarProperty Name="vc_u_facebook_id" ColumnName="vc_u_facebook_id" />
+          <ScalarProperty Name="vc_u_facebook_name" ColumnName="vc_u_facebook_name" />
+          <ScalarProperty Name="vc_u_facebook_mail" ColumnName="vc_u_facebook_mail" />
+          <ScalarProperty Name="vc_u_facebook_head" ColumnName="vc_u_facebook_head" />
+          <ScalarProperty Name="nvc_u_surname" ColumnName="nvc_u_surname" />
+          <ScalarProperty Name="vc_u_vChar_id" ColumnName="vc_u_vChar_id" />
+          <ScalarProperty Name="vc_u_vChar_name" ColumnName="vc_u_vChar_name" />
+          <ScalarProperty Name="vc_u_vChar_head" ColumnName="vc_u_vChar_head" />
+          <ScalarProperty Name="vc_u_vChar_no" ColumnName="vc_u_vChar_no" />
+          <ScalarProperty Name="i_u_vChar_status" ColumnName="i_u_vChar_status" />
+          <ScalarProperty Name="vc_u_Pay_Status" ColumnName="vc_u_Pay_Status" />
+          <ScalarProperty Name="i_u_Account_status" ColumnName="i_u_Account_status" />
+          <ScalarProperty Name="nvc_baby_summary" ColumnName="nvc_baby_summary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
